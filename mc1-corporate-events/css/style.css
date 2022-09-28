@@ -1,1 +1,86 @@
-/* Write CSS code here */
+.header{
+    border: 1px solid #45484a;
+    background-color: #45484a;
+    display: flex;
+   
+}
+#ul{
+    list-style-type:none;
+    padding: 10px;
+   
+   
+}
+#links{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", 'sans-serif';
+    margin-right:23px;
+}
+#heading1{
+    color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", 'sans-serif';
+    padding: 7px;
+    margin-right: 800px;
+}.div{
+    background-image: url(../images/corporate.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+}#heading2{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 100px;
+}#heading3{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 50px;
+}button{
+    margin-left: 700px;
+    background-color:#45484a;
+    border: 1px solid whitesmoke;
+   margin-top: 50px;
+   padding: 10px 20px 10px 20px;
+   color: whitesmoke;
+   border-radius: 10%;
+}#section{
+    display: inline-flex;
+
+}#article1{
+    border: 2px solid rgb(234, 229, 219);
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(234, 229, 219);
+    box-shadow: 5px 5px 5px 5px gray;
+    font-family:  "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}#img{
+    border-radius: 100%;
+}#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #26272b;
+}#a{
+    color:#737373;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100%;
+    padding: 10px 10px 10px 10px;
+}@media screen and (max-width: 700px){
+    #footer{
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    }
+}@media screen and (max-width: 700px){
+    #section{
+        display: inline;
+    }
+}@media screen and (max-width:700px){
+    #header{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr  ;
+     
+    }
+}
